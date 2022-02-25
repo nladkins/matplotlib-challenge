@@ -2,7 +2,7 @@
 
 ## Background
 
-The purpose of this repository is to contact an analysis of a recent animal study consisting of 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens.
+The purpose of this code is to run an analysis of hypothetical drug studies on mice for the hypothetical company Pymaceuticals Inc. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens.  The code included here performs an analysis of study data as well as metadata on the mice.  The example provided here is a screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
 ## Tasks
 
@@ -78,7 +78,15 @@ The following tasks were performed:
 
   Result:
 
-  ![Mouse ID s185 Tumor Volume and Timepoint](https://github.com/nladkins/matplotlib-challenge/blob/master/figs/timepointsperdrug_1mouse.png?raw=true)
+  ![Correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment](https://github.com/nladkins/matplotlib-challenge/blob/master/figs/capomulin_linear_regression.png?raw=true)
 
 
   10. Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+
+## Observations (also included at the top of the code)
+
+### 1) For the drugs Capomulin and Ramicane "appear" to be the most effective treatments as the tumor volume and metastic sites were the lowest, even under longer timepoints.
+
+### 2) However, the drugs Capomulin and Ramicane had the lightest average weights for their mice which seems to play a significant role in the tumor volume and how that could be interepreted.
+
+### 3) Aside from the mice weight skewing the Capomulin and Ramicane results, there was a good balance on the count of timepoints for each drug tested as well as a good balance in the number of male mice and female mice that were used in the study.
