@@ -10,6 +10,13 @@ The following tasks were performed:
 
   1. Data Cleansing:  Drop Null values, check data for any mouse ID with duplicate time points and remove data associated with that mouse ID.
   2. Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
+
+    The mean tumor volume of all mice is: 50.448411
+    The median tumor volume of all mice is: 48.951421
+    The variance of the tumor volume for all mice is from 22.050126 to 78.567014
+    The standard deviation of all mice tumors: 8.904752
+    The standard error of all mice tumors: 0.204937
+
   3. Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of timepoints for all mice tested for each drug regimen throughout the course of the study.
   4. Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
   5. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
